@@ -36,6 +36,7 @@ export const useTasksStore = defineStore("tasks", {
     },
     deleteAllCompletedTasks() {
       this.tasks = this.tasks.filter((task) => !task.completed);
+      toast.success("All completed tasks deleted successfully!");
     },
     toggleTask(id: number) {
       const task = this.tasks.find((task) => task.id === id);

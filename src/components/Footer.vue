@@ -4,14 +4,14 @@
       <div class="flex justify-between items-center">
         <div class="flex items-center gap-3">
           <p
-            class="text-sm underline"
+            class="text-sm underline cursor-pointer"
             :class="{ 'text-gray-400': showCompleted }"
             @click="toggleAll()"
           >
             All
           </p>
           <p
-            class="text-xs underline"
+            class="text-xs underline cursor-pointer"
             :class="{ 'text-gray-400': !showCompleted }"
             @click="toggleFilter()"
           >
@@ -31,6 +31,7 @@
 
 <script lang="ts">
 import { useTasksStore } from "../stores/tasks";
+
 export default {
   name: "Footer",
   data() {
