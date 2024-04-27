@@ -50,3 +50,4 @@ To delete a task, click the 'Delete' button next to the task you wish to remove.
 - **Pinia**: State management.
 - **Vue Router**: Managing navigation.
 - **Local Storage**: Data persistence.
+- **Tailwindcss**: UI.
