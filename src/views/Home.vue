@@ -24,8 +24,5 @@ export default {
     TodoForm,
     TodoList,
   },
-  data() {
-    return {};
-  },
 };
 </script>
